@@ -20,7 +20,7 @@ namespace Practice
         {
             //aggreate function
             int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
-            int result = numbers.Aggregate((a, b) => a + b);
+            int result = numbers.Aggregate((a, b) => (a + b));
             // 1 + 2 = 3
             // 3 + 3 = 6
             // 6 + 4 = 10
