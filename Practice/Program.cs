@@ -11,6 +11,14 @@ namespace Practice
         static void Main(string[] args)
         {
             FizzBuzz();
+            
+            program p = new program;
+            p.miyuki();
+        }
+        
+        void Miyuki()
+        {
+            Console.WriteLine("Not a static class; have to instanitate the program to call this method.");
         }
 
         void Argentina()
@@ -33,21 +41,6 @@ namespace Practice
             }
             Console.WriteLine(sum);
             Console.WriteLine(result);
-        }
-    }
-
-    class Pointer
-    {
-        public struct Point
-        {
-            public int Z;
-            public int X;
-            public int Y;
-
-            public override string ToString()
-            {
-                return $"({X},{Y},{Z})";
-            }
         }
     }
 }
