@@ -11,9 +11,19 @@ namespace Practice
         static void Main(string[] args)
         {
             FizzBuzz();
+            Argentina();
             
             program p = new program;
             p.miyuki();
+        }
+        
+        void Texas()
+        {
+            string input = "hello";
+            foreach (var result in input)
+            {
+                Console.WriteLine(result);
+            }
         }
         
         void Miyuki()
@@ -21,7 +31,7 @@ namespace Practice
             Console.WriteLine("Not a static class; have to instanitate the program to call this method.");
         }
 
-        void Argentina()
+        static void Argentina()
         {
             //aggreate function
             int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
