@@ -29,6 +29,12 @@ namespace Practice
         void Miyuki()
         {
             Console.WriteLine("Not a static class; have to instanitate the program to call this method.");
+            
+            var myList = new List<int>(){1,2,3,4,5}
+            myList.Sort();
+            int i = myList.BinarySearch(5);
+            Console.WriteLine(i);
+            
         }
 
         static void Argentina()
