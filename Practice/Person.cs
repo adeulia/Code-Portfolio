@@ -5,11 +5,14 @@ namespace Practice
  
  class Person
     {
+       //properties with auto implemneted getters/setters
         public string Name { get; set; }
         public int Age { get; set; }
-        public Person(string name, int age)
+        
+        
+        public Person(string _name, int _age)
         {
-            this.Name = name;
+            _name = Name;
             this.Age = age;
         }
     }
