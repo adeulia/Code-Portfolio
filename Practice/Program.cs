@@ -15,11 +15,19 @@ namespace Practice
             
             program p = new program;
             p.miyuki();
+            p.Utah();
+            p.Texas();
+        }
+        
+        void Utah()
+        {
+            //logic
         }
         
         void Texas()
         {
-            string input = "hello";
+            //const is static
+            const string input = "hello";
             foreach (var result in input)
             {
                 Console.WriteLine(result);
