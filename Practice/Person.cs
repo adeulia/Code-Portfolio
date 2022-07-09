@@ -12,7 +12,7 @@ namespace Practice
         
         public Person(string _name, int _age)
         {
-            _name = Name;
+            this.Name = _name;
             this.Age = _age;
         }
     }
