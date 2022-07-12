@@ -8,13 +8,7 @@ namespace Practice
        //properties with auto implemneted getters/setters
         public string Name { get; set; }
         public int Age { get; set; }
-        
-        
-        public Person(string _name, int _age)
-        {
-            this.Name = _name;
-            this.Age = _age;
-        }
+        public int AppUserId {get; get;}
+  
     }
-}
 }
