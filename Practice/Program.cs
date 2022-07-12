@@ -21,7 +21,9 @@ namespace Practice
         
         void Utah()
         {
-            //logic
+            public Icollection<Person> Person {get; set;}
+            //public IEnumberable<Person> Person {get; set;}
+            //public IList<Person> Person {get; set;}
         }
         
         void Texas()
