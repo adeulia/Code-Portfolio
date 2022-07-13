@@ -6,9 +6,11 @@ namespace Practice
  class Person
     {
        //properties with auto implemneted getters/setters
-        public string Name { get; set; }
+        public string fullName { get; set; }
         public int Age { get; set; }
-        public int AppUserId {get; get;}
+        public int AppUserId { get; get; }
+        public string firstName { get; set; }
+        public string lastName { get;set; }
   
     }
 }
