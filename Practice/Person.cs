@@ -3,7 +3,7 @@ using System;
 namespace Practice
  {
  
- class Person
+ public class Person
     {
        //properties with auto implemneted getters/setters
         public string fullName { get; set; }
